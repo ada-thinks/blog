@@ -7,7 +7,7 @@ docs/.vitepress/.temp/
 node_modules/
 package-lock.json
 yarn.lock
-pnpm-lock.yaml
+# pnpm-lock.yaml - 需要提交以确保部署时依赖版本一致
 
 # IDE
 .idea/
