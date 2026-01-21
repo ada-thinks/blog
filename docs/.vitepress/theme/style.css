@@ -1,0 +1,25 @@
+/* 首页 hero 头像样式 - 圆形头像 */
+.VPHero .image img {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航栏 logo 样式 - 圆形头像 */
+.VPNavBarTitle .logo {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* 确保图片容器也是圆形的 */
+.VPNavBarTitle .logo img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
